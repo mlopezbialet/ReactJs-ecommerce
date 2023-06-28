@@ -1,10 +1,12 @@
-import Navbar from "./Navbar";
+import Navbar from "./components/layout/navbar/Navbar";
+import ItemList from "./components/page/itemlist/ItemList";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <h1>Hola</h1>;
+      <h2>BIENVENIDOS</h2>
+      <itemList saludo={saludo}></itemList>
     </div>
   );
 }
